@@ -1,16 +1,17 @@
 import './App.css';
+import Header from './components/Header';
+import Intro from './components/Intro';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-      </header>
-      <section className="Intro">
+      <Header/>
+      <Intro/>
+      {/* <section className="Intro">
         <h1>Jared Hall</h1>
         <h3>Full Stack Engineer</h3>
         <button>Contact Me</button>
-      </section>
+      </section> */}
       <section className="About">
        <div className='Image-container'>
          <p> IMAGE CONTAINER</p>
